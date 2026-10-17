@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management</title>
+    <link rel="stylesheet" href="all.css">
+</head>
+<body>
+    <header>
+        <h1>Student Management System</h1>
+        <p>manage your Student easily</p>
+    </header>
+    <main>
+        <section id="student-form-section">
+            <h2>Add New Student</h2>
+            <form action="" id="student-form">
+                <label for="studentname">Student Name</label>
+                <input type="text"id="studentname" placeholder="Enter Student Name">
+                <label for="studentAge">Student Age</label>
+                <input type="text" id="studentAge" placeholder="Enter Student Age">
+                <label for="studentcourse">Courses</label>
+                <input type="text" id="studentcourse" placeholder="Enter Course Name">
+                <button type="submit">Add Student</button>
+                <input type="text" id="search" placeholder="search student by name">
+            </form>
+            <p id="message"></p>
+
+        </section>
+        <section id="student-list-section">
+            <h2>Student List</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>name</th>
+                        <th>Age</th>
+                        <th>Course</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="student-list">
+
+                </tbody>
+            </table>
+
+        </section>
+    </main>
+<script src="main.js"></script>
+    
+</body>
+</html>
